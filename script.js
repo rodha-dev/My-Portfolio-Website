@@ -22,7 +22,7 @@ for (let testimonial of testimonials) {
     
 }
 
-const projects = [
+const project = [
 {
     title: "My Portfolio",
     discription: "A Website showing my coding skills.",
