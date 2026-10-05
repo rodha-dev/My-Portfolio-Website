@@ -1,14 +1,18 @@
 body{
     font-family: Arial, sans-sarif;
     margin: 0;
+    background-color: orange;
 
 
 }
 
 header {
-    background-color: #333;
+    background-color: orange;
     color: white;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -30,7 +34,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: orange;
     color: white;
     text-align: center;
     padding: 15px;
@@ -38,18 +42,29 @@ footer {
 }
 
 h2 {
-    margin-bottom: 10px;
+    display: block !important;
+    color: white !important;
+    font-size: 30px !important;
 
 }
 
 #testimonial-container,
-#project-container {
+#projects-container {
     margin-top: 15px;
+    
+    
 
 }
 
+#projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
 contact a {
-    color: #333;
+    color: orange;
     text-decoration: none;
 
 }
@@ -61,6 +76,7 @@ nav a:hover {
 
 p {
     line-height: 1.6;
+    color: brown;
 
 }
 
@@ -74,6 +90,9 @@ h1 {
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ddd;
 
 }
 
@@ -88,6 +107,10 @@ nav a {
 
 }
 
+}
+
+h3 {
+    color: brown;
 }
 
 
